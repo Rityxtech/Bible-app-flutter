@@ -2,6 +2,10 @@
 
 A beautifully designed, feature-rich offline Bible reading application built with **Flutter**. Developed for users desiring a fast, responsive, and seamless Scripture reading experience.
 
+**🌐 Live Web Preview:** [Run the App in your Browser](https://Rityxtech.github.io/Bible-app-flutter/)
+
+**📱 Android User?** Download the native `.apk` from the [Releases Tab](https://github.com/Rityxtech/Bible-app-flutter/releases) (or pull it via the build directly from this source code).
+
 ## Features
 
 - **Dual Translation Support**: Instantly toggle between the King James Version (KJV) and American Standard Version (ASV).
