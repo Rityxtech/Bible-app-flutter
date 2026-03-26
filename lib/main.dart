@@ -1762,8 +1762,9 @@ class ChapterGridScreen extends StatelessWidget {
       appBar: AppBar(title: Text(book.name)),
       body: GridView.builder(
         padding: const EdgeInsets.all(16),
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 5,
+        gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+          maxCrossAxisExtent: 80,
+          childAspectRatio: 1.0,
           mainAxisSpacing: 12,
           crossAxisSpacing: 12,
         ),
@@ -1821,8 +1822,9 @@ class VerseSelectionScreen extends StatelessWidget {
       appBar: AppBar(title: Text('${book.name} ${chapter.chapter}')),
       body: GridView.builder(
         padding: const EdgeInsets.all(16),
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 5,
+        gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+          maxCrossAxisExtent: 80,
+          childAspectRatio: 1.0,
           mainAxisSpacing: 12,
           crossAxisSpacing: 12,
         ),
